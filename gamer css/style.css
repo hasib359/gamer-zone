@@ -301,6 +301,7 @@ body {
     line-height: 30px;
 }
 
+
 .files-container {
 
     min-height: 200px;
@@ -328,12 +329,17 @@ body {
     align-items: center;
     padding: 5px;
     border-radius: 50px;
-    border: 1px solid red;
+    
+}
+.file-align:hover{
+    border: 1px solid #F948B2;
+    color: #F948B2;
+
 }
 
 .foot-container{
     margin-top: 20px;
-    min-width:500px;
+    min-width:px;
     height: 500px;
     background: #0B0223;
 }

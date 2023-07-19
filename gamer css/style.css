@@ -11,7 +11,7 @@ body {
 }
 
 .nav-container {
-    
+
     min-height: 100px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -37,9 +37,9 @@ body {
 
 .logo-container h1 {
     text-align: center;
-   
+
     font-size: 45px;
-    
+
     font-weight: 700;
 }
 
@@ -51,10 +51,11 @@ body {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-content:center ;
+    align-content: center;
     align-items: center;
     gap: 30px;
 }
+
 .nav-items a {
     text-decoration: none;
     color: #3C354F;
@@ -64,10 +65,57 @@ body {
 }
 
 .follow-btn {
-    
-     border-radius: 8px;
-     background-color: rgba(11, 2, 35, 0.10);
-     padding: 15px 25px;
- }
+
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 15px 25px;
+}
 
 
+.banner-container {
+    border: 10px solid red;
+    min-height: 80vh;
+    display: flex;
+}
+
+.banner-text {
+    width: 50%;
+    background-image: url(../images/Group\ 14.png)
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-text h1 {
+
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text h2 {
+    color: #0B0223;
+
+
+    font-size: 48px;
+
+    font-weight: 600;
+
+}
+
+.banner-icon {
+    color: #534C64;
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+}

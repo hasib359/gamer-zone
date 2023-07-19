@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-container {
+    
+    min-height: 100px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-container img {
+    width: 86.041px;
+    margin-right: 20px;
+
+
+}
+
+.logo-container h1 {
+    text-align: center;
+   
+    font-size: 45px;
+    
+    font-weight: 700;
+}
+
+.game {
+    color: rgba(255, 66, 165, 1);
+}
+
+.nav-items {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    align-items: center;
+    gap: 30px;
+}
+.nav-items a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-btn {
+    
+     border-radius: 8px;
+     background-color: rgba(11, 2, 35, 0.10);
+     padding: 15px 25px;
+ }
+
+

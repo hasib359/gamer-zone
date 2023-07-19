@@ -43,6 +43,16 @@ body {
     font-weight: 700;
 }
 
+.fa-youtube{
+    width: 33.916px;
+height: 24px;
+fill: #F61C0D;
+}
+.fa-tiktok{
+    width: 24px;
+height: 24px;
+}
+
 .game {
     color: rgba(255, 66, 165, 1);
 }
@@ -73,13 +83,15 @@ body {
 
 
 .banner-container {
-    border: 10px solid red;
+    
     min-height: 80vh;
     display: flex;
 }
 
 .banner-text {
     width: 50%;
+    padding: 100px;
+    text-align: center;
     background-image: url(../images/Group\ 14.png)
 }
 
@@ -112,10 +124,40 @@ body {
 }
 
 .banner-icon {
+   
     color: #534C64;
-
+    text-align: center;
     font-size: 20px;
+    
+margin-bottom: 40px;
+
 
     font-weight: 500;
+   
 
+
+}
+.banner-icon li{
+    list-style: none;
+}
+.banner-icon p{
+    text-align:center;
+    margin-top: 10px;
+   
+}
+
+.btn-primary{
+    padding: 21px 40px;
+    border-radius: 48px;
+    margin-right: 20px;
+}
+
+.btn-sign{
+    background-color: rgba(255, 66, 165, 1);
+    color: white;
+}
+
+.btn-go{
+    background-color: #4EC5F7;
+    color: rgba(255, 255, 255, 1);
 }

@@ -64,15 +64,18 @@
         width: 100%;
     }
 
-    .foot-head{
+    .foot-head {
         flex-wrap: wrap;
     }
-    .foot-list{
+
+    .foot-list {
         flex-wrap: wrap;
     }
-    .foot-icons{
+
+    .foot-icons {
         flex-wrap: wrap;
     }
+
     .foot-unorder ul {
         flex-wrap: wrap;
     }

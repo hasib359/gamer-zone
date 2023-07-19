@@ -9,6 +9,9 @@
     .banner-text h1{
         font-size:65px;
     }
+    .grid-container{
+        grid-template-columns:repeat(2,1fr);
+    }
 }
 
 
@@ -33,6 +36,9 @@
     }
     .banner-text h1{
         font-size: 50px;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
     }
 }
 
